@@ -1,0 +1,66 @@
+body {
+    margin: 2em 4em 0 4em;
+}
+
+
+#main-bar {
+    margin-bottom: 2em;
+    display: flex;
+}
+
+#logo {
+    flex-grow: 1;
+    max-width: 5em;
+    max-height: 5em;
+}
+
+#menu {
+    flex-grow: 4;
+    text-align: right;
+}
+
+#landing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product {
+    margin-top: 4em;
+    max-width: 10em;
+    max-height: 10em;
+}
+
+#products-list {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 1em;
+}
+
+p {
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+#product-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#product-detail {
+    margin: 0;
+}
+
+#product-img {
+    max-width: 10em;
+    max-height: 10em;
+}
